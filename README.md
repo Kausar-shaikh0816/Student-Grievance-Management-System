@@ -1,52 +1,105 @@
-# Student-Grievance-Management-System
-Student Grievance Support System – Project Description
+# 🎓 Student Grievance Management System
 
-The Student Grievance Support System is a web-based application developed to provide a transparent, efficient, and user-friendly platform for managing student grievances within an institution. The system digitalizes the entire grievance handling process, reducing manual work and improving communication between students and the administration.
+##  Project Overview
+The **Student Grievance Management System** is a web-based application designed to provide a **transparent, efficient, and user-friendly platform** for managing student grievances within an educational institution.
 
-In this project, I implemented two main user roles: Student and Admin, each with secure authentication and role-based access.
+This system digitalizes the entire grievance-handling process, reducing manual work and improving communication between students and the administration.
 
-Student Module
+The project implements **role-based access control** with two main user roles:
+- **Student**
+- **Admin**
 
-Students can:
+---
 
-Register and log in securely to the system
+## 👥 User Roles & Modules
 
-Submit grievances by providing details such as grievance type, description, and department
+### Student Module
+Students can perform the following actions:
 
-View all their submitted grievances in a dashboard
+- Register and log in securely
+- Submit grievances by specifying:
+  - Grievance type
+  - Description
+  - Department
+- View all submitted grievances in a personal dashboard
+- Track grievance status in real time:
+  - Pending
+  - In Progress
+  - Resolved
+- View updates and responses provided by the admin
 
-Track the real-time status of grievances (Pending, In Progress, Resolved)
+ This module allows students to raise issues easily and track progress without repeatedly visiting the administration.
 
-Check updates and responses provided by the admin
+---
 
-This module ensures that students can easily raise issues and monitor progress without repeatedly contacting the administration.
+### Admin Module
+Admins have access to a secure admin panel where they can:
 
-Admin Module
+- Log in securely
+- View all student grievances in a centralized dashboard
+- Filter grievances by:
+  - Status
+  - Department
+- Update grievance status and provide resolutions
+- Manage student records
+- Monitor grievance statistics
 
-Admins can:
+ The admin dashboard ensures efficient grievance handling, accountability, and proper record management.
 
-Log in through a secure admin panel
+---
 
-View all student grievances in a centralized dashboard
+##  Technologies Used
 
-Filter and manage grievances based on status or department
+### Frontend
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
 
-Update grievance status and provide resolutions
+### Backend
+- PHP
 
-Manage student records and monitor grievance statistics
+### Database
+- MySQL
 
-The admin dashboard helps in efficiently handling grievances, ensuring accountability, and maintaining proper records.
+### Server
+- XAMPP / Apache
 
-Technology Used
+---
 
-Frontend: HTML, CSS, Bootstrap, JavaScript
+## ⚙️ Installation & Setup
 
-Backend: PHP
+1. Install **XAMPP**
+2. Clone or download this repository
+3. Move the project folder to:
 
-Database: MySQL
+4. /htdoc
+5. 4. Import the database file into MySQL
+5. Start **Apache** and **MySQL**
+6. Open your browser and run:
 
-Server: XAMPP / Apache
+http://localhost/Student-Grievance-Management-System
 
-Outcome
 
-This system improves grievance resolution time, enhances transparency, and provides a structured workflow for both students and administrators. It is scalable and can be enhanced further with features like email notifications, role-based departments, and analytics.
+---
+
+## 📈 Outcome & Benefits
+- Faster grievance resolution
+- Improved transparency
+- Reduced paperwork
+- Structured workflow for students and administrators
+
+---
+
+## 🚀 Future Enhancements
+- Email notifications for status updates
+- Department-wise role-based admins
+- Analytics and reporting dashboard
+- Mobile-friendly UI
+
+---
+
+## 👤 Author
+**Kausar Shaikh**  
+MCA Student | Web Developer
+
